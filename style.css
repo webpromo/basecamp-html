@@ -1,0 +1,95 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+section {}
+
+div {display:inline;}
+
+.menu {
+    background-color: rgb(112,112,112);
+    display:flex; 
+    color:white;
+    justify-content: center;
+    padding-top:0px;}
+
+    .title {
+        float:right;
+        width:48%;
+        text-align:left;
+        padding-top:10px;padding-bottom:10px;}
+    h3 {
+        font-size:24pt;
+        margin:0px;
+        padding:0px;}
+    .links {
+        float:right;
+        width:48vw;
+        text-align:right;
+        padding-top:6px;}
+        ul {
+            list-style-type:none;
+            overflow:hidden;
+            margin:0px;
+            padding:0px;}
+        li {
+            float:right;
+            display:block;
+            padding:14px 8px;}
+        a {text-decoration:none;color:white;}
+        hover {background-color: rgb(15,15,15);}
+
+
+.banner {
+    background-color: #000;display:flex;
+    justify-content: center;
+    padding-top:45px;}
+    h1 {color:rgb(223,223,95);
+        font-size:40pt;
+        text-align: center;
+        font-family:Arial Narrow,Helvetica Narrow;
+        height:4em;
+        line-height:100pt;}
+
+.mainContent {
+    width:100%;
+    display:block;
+    background-color: #fff;
+    padding-top:40px;}
+
+    .curveBox {
+        margin: 0px 40px 40px 40px; 
+        justify-content: center;
+        background-color: rgb(184,255,215);
+        width:21vw;
+        height:280px;
+        border-radius: 12px;
+        padding: 20px; 
+        }
+
+    .twoAcross {
+        display:flex;
+        margin-right:40px;;
+        }
+
+        .squareBox {
+            margin: 0px 40px 40px 40px;
+            background-color: rgb(255,195,108);
+            width:45%;
+            height:280px;
+        }
+
+        .left {width:366px;
+            margin:auto;}
+
+        #elephant {
+            margin:auto;
+            background-image: url("elephant.jpg");
+            width:366px; height:233px;
+            background-position:right;
+            }
+
+footer {
+    background-color: rgb(58,58,58);
+    height:60px;
+    text-align:center;
+    padding-top:36px;
+    color:#666;}
